@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: url('fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffd700;
+}
+.search-box {
+    margin-top: 20px;
+}
+
+#searchInput {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#searchButton {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#resetButton {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#characterInfo {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.personagem-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dados-personagem {
+    flex: 1;
+    text-align: left;
+    background-color: #333; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.filmes {
+    flex: 1;
+    text-align: left;
+    background-color: #333; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.naves-veiculos {
+    flex: 1;
+    text-align: left;
+    background-color: #333; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #ffd700; 
+}

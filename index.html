@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarWarsPedia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>StarWarsPedia</h1>
+
+    <div class="search-box">
+        <label for="searchInput">Pesquisar por Número do Personagem ou Nome: </label>
+        <input type="text" id="searchInput">
+        <button id="searchButton" onclick="buscarPersonagem()">Buscar</button>
+    </div>
+
+    <div id="characterInfo"></div>
+
+    <button id="resetButton" onclick="resetarPagina()">Fazer Nova Pesquisa</button>
+
+    <script src="personagem.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
